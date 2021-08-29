@@ -1,6 +1,12 @@
 .display-para{
     display: inline-block;
 }
+.display-para:hover{
+    background-color: gray;
+    color: #fff;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
 .border-color{
     border-color: black;
 }
